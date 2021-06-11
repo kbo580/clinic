@@ -260,6 +260,7 @@ header .header_nav ul li a:hover {
     bottom: 0;
     width: 100%;
     font-size: 2rem;
+    max-height: 80px;
   }
   .sp_reservation_container .phone_number_wrapper {
     width: 49%;
@@ -268,6 +269,9 @@ header .header_nav ul li a:hover {
   }
   .sp_reservation_container .phone_number_wrapper p {
     font-size: 1.6rem;
+  }
+  .sp_reservation_container .phone_number_wrapper p .fas {
+    margin-right: 0;
   }
   .sp_reservation_container .phone_number_wrapper p:first-child {
     font-size: 1.2rem;
@@ -481,10 +485,6 @@ header .header_nav ul li a:hover {
     font-size: 2rem;
     background: #AADDDD;
     border-radius: 50%;
-  }
-  .active {
-    color: red;
-    display: block;
   }
 }
 
@@ -1510,6 +1510,7 @@ iframe {
   text-align: center;
   border-collapse: collapse;
   width: 100%;
+  font-size: 1.5rem;
 }
 
 .flow_list table th, .flow_list table td {
@@ -1590,6 +1591,7 @@ iframe {
     width: 100%;
     background-color: #ddd;
     padding: 10px 0 -1em -1.2rem;
+    font-size: 1.4rem;
   }
   .flow_list table th, .flow_list table td {
     padding: 0px;

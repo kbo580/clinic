@@ -273,7 +273,7 @@ header{
 }
 
 
-// スマホ用固定
+// スマホ用固定フッター
 .sp_reservation_container{
   display: none;
 }
@@ -290,6 +290,7 @@ header{
     bottom: 0;
     width: 100%;
     font-size: 2rem;
+    max-height: 80px;
   
     .phone_number_wrapper{
       width: 49%;
@@ -298,6 +299,10 @@ header{
 
       p{
         font-size: 1.6rem;
+
+        .fas{
+          margin-right: 0;
+        }
       }
   
       p:first-child{
@@ -505,7 +510,6 @@ header{
 }
 
 // スマホ用固定ヘッダー
-
 #sp_fix_nav{
   display: none;
 }
@@ -543,11 +547,6 @@ header{
       background: $subColor;
       border-radius: 50%;
     }
-  }
-
-  .active{
-    color: red;
-    display: block;
   }
 }
 
@@ -1759,6 +1758,7 @@ iframe{
     text-align: center;
     border-collapse: collapse;
     width: 100%;
+    font-size: 1.5rem;
 
     th, td{
       padding: 0 12px;
@@ -1872,6 +1872,7 @@ iframe{
       width: 100%;
       background-color: #ddd;
       padding: 10px 0 -1em -1.2rem;
+      font-size: 1.4rem;
 
       th, td{
         padding:  0px;
