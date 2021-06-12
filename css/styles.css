@@ -265,19 +265,28 @@ header .header_nav ul li a:hover {
   .sp_reservation_container .phone_number_wrapper {
     width: 49%;
     text-align: center;
-    padding: 9px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .sp_reservation_container .phone_number_wrapper p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .sp_reservation_container .phone_number_wrapper p .fas {
-    margin-right: 0;
+    margin-right: 5px;
   }
   .sp_reservation_container .phone_number_wrapper p:first-child {
     font-size: 1.2rem;
   }
   .sp_reservation_container .phone_number_wrapper .fas {
     margin-right: 5px;
+    display: inline-block;
   }
   .sp_reservation_container .sp_reservation_wrapper {
     width: 49%;
@@ -2163,6 +2172,7 @@ input[type="submit"]:hover {
   }
   .main_wrapper .news .news_wrapper h2 {
     margin: 0px;
+    font-size: 2rem;
   }
   .main_wrapper .news .news_wrapper time {
     margin-bottom: 10px;
@@ -2230,7 +2240,7 @@ input[type="submit"]:hover {
     padding-bottom: 24px;
   }
   .archive_wrapper h2 {
-    font-size: 2.1rem;
+    font-size: 2rem;
   }
 }
 
