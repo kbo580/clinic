@@ -281,7 +281,7 @@ header{
 @media (max-width: 599px) {
   .sp_reservation_container{
     background-color: $subColor;
-    padding: 8px;
+    padding: 2%;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -289,12 +289,18 @@ header{
     z-index: 1;
     bottom: 0;
     width: 100%;
-    font-size: 2rem;
-    max-height: 80px;
-  
-    .phone_number_wrapper{
+
+    .sp_footer{
       width: 49%;
+      height: 60px;
       text-align: center;
+      border: 2px solid $textColor;
+      background-color: #fff;
+      border-radius: 4px;
+    }
+  
+    // 電話番号
+    .sp_phone_number_wrapper{
       display: flex;
       align-items: center;
       justify-content: center;
@@ -303,42 +309,27 @@ header{
         font-size: 1.4rem;
 
         .fas{
-          margin-right: 5px;
+          margin-right: 4px;
         }
       }
   
       p:first-child{
         font-size: 1.2rem;
       }
-
-      .fas{
-        margin-right: 5px;
-        display: inline-block;
-      }
     }
   
+    // 予約ボタン
     .sp_reservation_wrapper{
-      width: 49%;
   
-      .reservation_btn{
-        width: 100%;
-        font-size: 1.6rem;
+      .sp_reservation_btn{
 
         a{
-          height: 60px;
+          font-size: 1.6rem;
+          height: 100%;
           line-height: 60px;
+          display: block;
         }
       }
-  
-      span{
-        font-size: 1rem;
-      }
-    }
-  
-    .btn{
-      border: 2px solid $textColor;
-      background-color: #fff;
-      border-radius: 4px;
     }
   }
 }
@@ -645,7 +636,7 @@ footer{
 
 @media (max-width: 599px) {
   footer{
-    margin-bottom: 80px;
+    margin-bottom: 180px;
   
     .info_wrapper{
       margin-bottom: 32px;
@@ -943,7 +934,7 @@ section{
 
 @media (max-width: 599px) {
   .lower_page{
-    padding: 20px 0;
+    padding: 40px 0;
   
     .main_wrapper{
     

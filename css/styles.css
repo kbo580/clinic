@@ -247,7 +247,7 @@ header .header_nav ul li a:hover {
 @media (max-width: 599px) {
   .sp_reservation_container {
     background-color: #AADDDD;
-    padding: 8px;
+    padding: 2%;
     position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -259,12 +259,16 @@ header .header_nav ul li a:hover {
     z-index: 1;
     bottom: 0;
     width: 100%;
-    font-size: 2rem;
-    max-height: 80px;
   }
-  .sp_reservation_container .phone_number_wrapper {
+  .sp_reservation_container .sp_footer {
     width: 49%;
+    height: 60px;
     text-align: center;
+    border: 2px solid #6d4227;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  .sp_reservation_container .sp_phone_number_wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -275,37 +279,20 @@ header .header_nav ul li a:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .sp_reservation_container .phone_number_wrapper p {
+  .sp_reservation_container .sp_phone_number_wrapper p {
     font-size: 1.4rem;
   }
-  .sp_reservation_container .phone_number_wrapper p .fas {
-    margin-right: 5px;
+  .sp_reservation_container .sp_phone_number_wrapper p .fas {
+    margin-right: 4px;
   }
-  .sp_reservation_container .phone_number_wrapper p:first-child {
+  .sp_reservation_container .sp_phone_number_wrapper p:first-child {
     font-size: 1.2rem;
   }
-  .sp_reservation_container .phone_number_wrapper .fas {
-    margin-right: 5px;
-    display: inline-block;
-  }
-  .sp_reservation_container .sp_reservation_wrapper {
-    width: 49%;
-  }
-  .sp_reservation_container .sp_reservation_wrapper .reservation_btn {
-    width: 100%;
+  .sp_reservation_container .sp_reservation_wrapper .sp_reservation_btn a {
     font-size: 1.6rem;
-  }
-  .sp_reservation_container .sp_reservation_wrapper .reservation_btn a {
-    height: 60px;
+    height: 100%;
     line-height: 60px;
-  }
-  .sp_reservation_container .sp_reservation_wrapper span {
-    font-size: 1rem;
-  }
-  .sp_reservation_container .btn {
-    border: 2px solid #6d4227;
-    background-color: #fff;
-    border-radius: 4px;
+    display: block;
   }
 }
 
@@ -581,7 +568,7 @@ footer .copy {
 
 @media (max-width: 599px) {
   footer {
-    margin-bottom: 80px;
+    margin-bottom: 180px;
   }
   footer .info_wrapper {
     margin-bottom: 32px;
@@ -853,7 +840,7 @@ section .section_heading:before {
 
 @media (max-width: 599px) {
   .lower_page {
-    padding: 20px 0;
+    padding: 40px 0;
   }
   .lower_page .main_wrapper article {
     padding: 16px;
