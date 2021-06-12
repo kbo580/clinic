@@ -463,14 +463,14 @@ header{
     cursor: pointer;
     position: absolute;
     text-align: center;
-    left: -10px;
+    left: 0px;
     top: 0;
     font-size: 20px;
     color: #fff;
     background: $textColor;
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 4px;
   }
 }
 
@@ -597,7 +597,7 @@ footer{
 
 @media (max-width: 940px) {
   footer{
-    padding: 40px 0;
+    padding: 20px 0;
   
     .info_wrapper{
       margin-bottom: 32px;
@@ -727,7 +727,6 @@ section{
 
 @media (max-width: 599px) {
   section{
-    padding: 20px 0;
   
     // 各セクションの見出し
     .section_heading{
@@ -1598,7 +1597,7 @@ iframe{
 
 @media (max-width: 599px) {
    // クリニック紹介
-   .about{
+  .about{
     
     .about_wrapper{
       display: block;
@@ -2569,8 +2568,12 @@ input[type="submit"]{
       .news_wrapper{
     
         h2{
-          margin-right: 16px;
+          margin: 0px;
+        }
+
+        time{
           margin-bottom: 10px;
+          display: block;
         }
       }
     

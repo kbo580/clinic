@@ -408,14 +408,14 @@ header .header_nav ul li a:hover {
     cursor: pointer;
     position: absolute;
     text-align: center;
-    left: -10px;
+    left: 0px;
     top: 0;
     font-size: 20px;
     color: #fff;
     background: #6d4227;
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 4px;
   }
 }
 
@@ -529,7 +529,7 @@ footer .copy {
 
 @media (max-width: 940px) {
   footer {
-    padding: 40px 0;
+    padding: 20px 0;
   }
   footer .info_wrapper {
     margin-bottom: 32px;
@@ -646,9 +646,6 @@ section .section_heading:before {
 }
 
 @media (max-width: 599px) {
-  section {
-    padding: 20px 0;
-  }
   section .section_heading:before {
     width: 30px;
     height: 30px;
@@ -2165,8 +2162,11 @@ input[type="submit"]:hover {
     background: url(../images/news_mv.jpg) center/cover;
   }
   .main_wrapper .news .news_wrapper h2 {
-    margin-right: 16px;
+    margin: 0px;
+  }
+  .main_wrapper .news .news_wrapper time {
     margin-bottom: 10px;
+    display: block;
   }
   .main_wrapper .news .pager_wrapper {
     bottom: 16px;
